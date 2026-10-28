@@ -2,6 +2,16 @@
 
 A responsive photo gallery web application built with React that fetches photos from the Picsum Photos API, allows users to search by author name, and mark photos as favorites.
 
+## 🔗 Links
+
+- **GitHub Repository:** [https://github.com/emma3524/photohub](https://github.com/emma3524/photohub)
+- **Live Demo:** [Deploy to Vercel/Netlify - Link Coming Soon](#)
+
+> 💡 **Quick Deploy:** Click the button below to deploy your own copy
+>
+> [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/emma3524/photohub)
+> [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/emma3524/photohub)
+
 ## Features
 
 ✅ **Fetch Photos from API** - Uses the Picsum Photos API to load 30 photos  
@@ -173,6 +183,44 @@ Response format:
 - Safari (latest)
 - Edge (latest)
 
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub (already done!)
+2. Go to [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your `photohub` repository
+5. Vercel auto-detects Vite settings
+6. Click "Deploy"
+
+Your site will be live in seconds!
+
+### Deploy to Netlify
+
+1. Go to [netlify.com](https://netlify.com)
+2. Drag and drop your `dist` folder (after running `npm run build`)
+3. Or connect your GitHub repo for automatic deployments
+
+### Deploy to GitHub Pages
+
+```bash
+npm install gh-pages --save-dev
+```
+
+Add to `package.json` scripts:
+```json
+"scripts": {
+  "deploy": "gh-pages -d dist"
+}
+```
+
+Then run:
+```bash
+npm run build
+npm run deploy
+```
+
 ## License
 
 This project is created for educational purposes as part of a frontend internship pre-screening assignment.
@@ -180,3 +228,5 @@ This project is created for educational purposes as part of a frontend internshi
 ## Author
 
 Built with ❤️ using React, Vite, and Tailwind CSS
+
+**GitHub:** [@emma3524](https://github.com/emma3524)

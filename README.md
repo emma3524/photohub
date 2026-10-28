@@ -5,7 +5,7 @@ A responsive photo gallery web application built with React that fetches photos 
 ## 🔗 Links
 
 - **GitHub Repository:** [https://github.com/emma3524/photohub](https://github.com/emma3524/photohub)
-- **Live Demo:** [Deploy to Vercel/Netlify - Link Coming Soon](#)
+- **Live Demo:** [https://photohub-teal.vercel.app/](https://photohub-teal.vercel.app/)
 
 > 💡 **Quick Deploy:** Click the button below to deploy your own copy
 >
